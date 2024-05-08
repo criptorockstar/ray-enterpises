@@ -14,6 +14,19 @@ const roboto = Roboto({
 
 export const theme = createTheme({
   palette: {
-    mode: "dark",
+    mode: "light",
+    primary: {
+      main: "#72c05b",
+    },
+    secondary: {
+      main: "#222222",
+    },
+  },
+  typography: {
+    fontFamily: roboto,
+    fontWeightLight: 300,
+    fontWeightRegular: 400,
+    fontWeightMedium: 500,
+    fontWeightBold: 700,
   },
 });
