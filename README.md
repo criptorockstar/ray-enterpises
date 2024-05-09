@@ -5,6 +5,9 @@
 ## Run development files:
 
 ```bash
+git clone git@github.com:RayEnterprises/ray-enterpises-website.git
+cd ray-enterpises-website
+pnpm install
 pnpm dev
 ```
 
