@@ -1,7 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
+<div align="center">
+    <img src="https://github.com/RayEnterprises/ray-enterpises-website/blob/master/src/common/assets/logo.jpg"
+</div>
 First, run the development server:
 
 ```bash
