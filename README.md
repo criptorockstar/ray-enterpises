@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/RayEnterprises/ray-enterpises-website/blob/master/src/common/assets/logo.jpg"
+    <img src="https://github.com/RayEnterprises/ray-enterpises-website/blob/master/src/common/assets/logo.jpg"/>
 </div>
 
 ## Run development files:
