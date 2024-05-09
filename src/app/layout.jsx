@@ -1,6 +1,6 @@
 "use client";
-import FooterComponent from "@/components/Footer/Footer";
-import NavbarComponent from "@/components/NavBar/NavBar";
+import FooterComponent from "../common/components/footer/footer";
+import NavbarComponent from "../common/components/navbar/navbar";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import { theme } from "../common/theme/theme";

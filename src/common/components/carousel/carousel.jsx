@@ -1,5 +1,5 @@
 import styles from "./carousel.module.scss";
-import bg1 from "../../common/assets/slider/bg1.jpg";
+import bg1 from "../../assets/slider/bg1.jpg";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
 

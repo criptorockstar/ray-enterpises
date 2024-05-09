@@ -8,7 +8,7 @@ import {
 } from "@mui/material";
 import styles from "./navbar.module.scss";
 import Image from "next/image";
-import logo from "../../common/assets/logo.jpg";
+import logo from "../../../common/assets/logo.jpg";
 
 export default function NavbarComponent() {
   return (

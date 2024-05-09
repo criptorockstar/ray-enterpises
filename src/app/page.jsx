@@ -1,9 +1,9 @@
-import CarouselComponent from "@/components/Carousel/Carousel";
+import CarouselComponent from "../common/components/carousel/carousel";
 import Button from "@mui/material/Button";
 import styles from "./home.module.scss";
 import { Container, Grid } from "@mui/material";
 import Image from "next/image";
-import feature1 from "../common/assets/feature1.jpg";
+import feature1 from "../common/assets/sections/feature1.jpg";
 
 export const metadata = {
   title: "Ray Enterprises",
