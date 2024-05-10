@@ -31,10 +31,15 @@ export default function NavbarComponent() {
               <Button className={styles.navitem} href="#nosotros">
                 Nosotros
               </Button>
-              <Button className={styles.navitem}>Visión</Button>
-              <Button className={styles.navitem}>Servicios</Button>
-              <Button className={styles.navitem}>Portfolio</Button>
-              <Button className={styles.navitem}>Contacto</Button>
+              <Button className={styles.navitem} href="#servicios">
+                Servicios
+              </Button>
+              <Button className={styles.navitem} href="porfolio">
+                Portfolio
+              </Button>
+              <Button className={styles.navitem} href="contacto">
+                Contacto
+              </Button>
             </Stack>
           </Toolbar>
         </Container>

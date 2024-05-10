@@ -1,5 +1,6 @@
 .about {
   padding-top: 100px;
+  padding-bottom: 120px;
   h2 {
     text-transform: uppercase;
     text-align: center;
@@ -31,15 +32,19 @@
         border-bottom: 1px solid #72C05B;
       }
     }
+    .pitch {
+      max-width: 520px;
+    }
   }
 }
 
 .vision {
-    padding-top: 100px;
-  h2 {
-    text-transform: uppercase;
-    text-align: center;
-  }
+  //padding-top: 100px;
+  background: #242a33;
+  background-size: cover;
+  color: #fff;
+  padding: 70px 0;
+
   .description {
     //width: 800px;
     text-align: center;

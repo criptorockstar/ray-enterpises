@@ -19,14 +19,14 @@ export default function HomePage() {
         <Container>
           <h2>Ray Entreprises</h2>
           <p className={styles.description}>
-            NACE EN JUNIO DE 2019 EN LA CIUDAD DE MARACAY EDO ARAGUA, VENEZUELA,
-            LA EMPRESA DE TUS SUEÑOS
+            NACE EN DICIEMBRE DE 2019 EN LA CIUDAD DE MARACAY EDO ARAGUA,
+            VENEZUELA, LA EMPRESA DE TUS SUEÑOS
           </p>
 
           <Grid container spacing={2}>
             <Grid item xs={6} className={styles.content}>
               <h3>MISIÓN</h3>
-              <p>
+              <p className={styles.pitch}>
                 COLABORAR CON MULTIPLES EMPRESAS A NIVEL NACIONAL E
                 INTERNACIONAL, PARA EL CRECIMIENTO YRECONOCIMIENTO DE LAS
                 MISMAS, BAJO NUESTROS SERVICIOS, GENERANDO FUENTES DE EMPLEOS
@@ -49,13 +49,18 @@ export default function HomePage() {
 
       <section className={styles.vision} id="vision">
         <Container>
-          <h2>VISIÓN</h2>
           <p className={styles.description}>
             NUESTRA VISION, ES POSICIONARNOS EN EL 1º LUGAR DEL RANKING DE
             EMPRESAS ENTELEMARKETIG A NIVEL MUNDIAL, CONTRIBUYENDO A ALCANZAR
             LOS OBJETIVOS ECONOMICO A NUESTRO CAPITAL HUMANO, SIN IMPORTAR
             RELIGION, RAZA U ORIGEN.
           </p>
+        </Container>
+      </section>
+
+      <section className={styles.services} id="servicios">
+        <Container>
+          <Grid container spacing={1}></Grid>
         </Container>
       </section>
     </>
