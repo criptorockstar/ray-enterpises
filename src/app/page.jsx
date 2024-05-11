@@ -1,9 +1,18 @@
-import CarouselComponent from "../common/components/carousel/carousel";
-import Button from "@mui/material/Button";
+import CarouselComponent from "@components/carousel/carousel";
+import TestimonialsComponent from "@components/testimonials/testimonials";
 import styles from "./home.module.scss";
 import { Container, Grid } from "@mui/material";
 import Image from "next/image";
-import feature1 from "../common/assets/sections/feature1.jpg";
+import feature1 from "@assets/sections/feature1.jpg";
+import Button from "@mui/material/Button";
+import digital from "@assets/digital.png";
+import referal from "@assets/referal.png";
+import leads from "@assets/leads.png";
+import design from "@assets/design.png";
+//import development from "@assets/development.png";
+import consultant from "@assets/consultant.png";
+import importations from "@assets/importation.png";
+import exchange from "@assets/exchange.png";
 
 export const metadata = {
   title: "Ray Enterprises",
@@ -41,7 +50,110 @@ export default function HomePage() {
                 src={feature1}
                 width={457}
                 height={307}
+                alt="Image"
               />
+            </Grid>
+          </Grid>
+        </Container>
+      </section>
+
+      <section className={styles.services} id="servicios">
+        <Container>
+          <h2>Nuestros servicios</h2>
+          <p className={styles.description}>
+            Ofrecemos una amplia variedad de servicios para tu empresa
+          </p>
+          <Grid container spacing={1} className={styles.content}>
+            <Grid xs={3}>
+              <div className={styles.icon}>
+                <Image
+                  alt="digital marketing"
+                  src={digital}
+                  width={128}
+                  height={128}
+                />
+              </div>
+              <h6>Marketing digital</h6>
+              <p className={styles.service}></p>
+            </Grid>
+            <Grid xs={3}>
+              <div className={styles.icon}>
+                <Image
+                  alt="digital marketing"
+                  src={referal}
+                  width={128}
+                  height={128}
+                />
+              </div>
+              <h6>Marketing de referidos</h6>
+            </Grid>
+            <Grid xs={3}>
+              <div className={styles.icon}>
+                <Image
+                  alt="digital marketing"
+                  src={leads}
+                  width={128}
+                  height={128}
+                />
+              </div>
+              <h6>Creación de leads</h6>
+            </Grid>
+            <Grid xs={3}>
+              <div className={styles.icon}>
+                <Image
+                  alt="digital marketing"
+                  src={design}
+                  width={128}
+                  height={128}
+                />
+              </div>
+              <h6>Diseño gráfico</h6>
+            </Grid>
+
+            {/*<Grid xs={3}>
+              <div className={styles.icon}>
+                <Image
+                  alt="digital marketing"
+                  src={development}
+                  width={128}
+                  height={128}
+                />
+              </div>
+              <h6>Desarrollo de aplicaciónes</h6>
+            </Grid>*/}
+
+            <Grid xs={4}>
+              <div className={styles.icon}>
+                <Image
+                  alt="digital marketing"
+                  src={consultant}
+                  width={128}
+                  height={128}
+                />
+              </div>
+              <h6>Asesoramiento empresarial en ventas</h6>
+            </Grid>
+            <Grid xs={4}>
+              <div className={styles.icon}>
+                <Image
+                  alt="digital marketing"
+                  src={exchange}
+                  width={128}
+                  height={128}
+                />
+              </div>
+              <h6>Casa de cambio digital</h6>
+            </Grid>
+            <Grid xs={4}>
+              <div className={styles.icon}>
+                <Image
+                  alt="digital marketing"
+                  src={importations}
+                  width={128}
+                  height={128}
+                />
+              </div>
+              <h6>Importaciónes</h6>
             </Grid>
           </Grid>
         </Container>
@@ -55,14 +167,18 @@ export default function HomePage() {
             LOS OBJETIVOS ECONOMICO A NUESTRO CAPITAL HUMANO, SIN IMPORTAR
             RELIGION, RAZA U ORIGEN.
           </p>
+
+          <div className={styles.center}>
+            <Button variant="contained">Más infomación</Button>
+          </div>
         </Container>
       </section>
 
-      <section className={styles.services} id="servicios">
-        <Container>
-          <Grid container spacing={1}></Grid>
-        </Container>
-      </section>
+      <section className={styles.portfolio} id="portfolio"></section>
+
+      <TestimonialsComponent />
+
+      <section className={styles.contact} id="contacto"></section>
     </>
   );
 }

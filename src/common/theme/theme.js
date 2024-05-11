@@ -10,6 +10,7 @@ const roboto = Roboto({
   weight: ["300", "400", "500", "700"],
   subsets: ["latin"],
   display: "swap",
+  preload: false,
 });
 
 export const theme = createTheme({
@@ -19,7 +20,7 @@ export const theme = createTheme({
       main: "#72c05b",
     },
     secondary: {
-      main: "#000000",
+      main: "#070d07",
     },
   },
   typography: {
