@@ -8,7 +8,7 @@ import {
 } from "@mui/material";
 import styles from "./navbar.module.scss";
 import Image from "next/image";
-import logo from "../../../common/assets/logo.jpg";
+import logo from "@assets/logo.png";
 
 export default function NavbarComponent() {
   return (
@@ -34,10 +34,10 @@ export default function NavbarComponent() {
               <Button className={styles.navitem} href="#servicios">
                 Servicios
               </Button>
-              <Button className={styles.navitem} href="porfolio">
+              <Button className={styles.navitem} href="#portfolio">
                 Portfolio
               </Button>
-              <Button className={styles.navitem} href="contacto">
+              <Button className={styles.navitem} href="#contacto">
                 Contacto
               </Button>
             </Stack>
