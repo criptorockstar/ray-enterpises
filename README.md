@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/RayEnterprises/ray-enterpises-website/blob/master/src/common/assets/logo_alt.png" style="width: 300px; height: auto;"/>
+    <img src="https://github.com/criptorockstar/ray-enterpises-website/blob/master/src/common/assets/logo_alt.png" style="width: 300px; height: auto;"/>
 </div>
 
 ## Run development files:
