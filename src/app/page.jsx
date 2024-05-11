@@ -9,7 +9,7 @@ import digital from "@assets/digital.png";
 import referal from "@assets/referal.png";
 import leads from "@assets/leads.png";
 import design from "@assets/design.png";
-import development from "@assets/development.png";
+//import development from "@assets/development.png";
 import consultant from "@assets/consultant.png";
 import importations from "@assets/importation.png";
 import exchange from "@assets/exchange.png";
@@ -109,7 +109,8 @@ export default function HomePage() {
               </div>
               <h6>Diseño gráfico</h6>
             </Grid>
-            <Grid xs={3}>
+
+            {/*<Grid xs={3}>
               <div className={styles.icon}>
                 <Image
                   alt="digital marketing"
@@ -119,9 +120,9 @@ export default function HomePage() {
                 />
               </div>
               <h6>Desarrollo de aplicaciónes</h6>
-            </Grid>
+            </Grid>*/}
 
-            <Grid xs={3}>
+            <Grid xs={4}>
               <div className={styles.icon}>
                 <Image
                   alt="digital marketing"
@@ -132,7 +133,7 @@ export default function HomePage() {
               </div>
               <h6>Asesoramiento empresarial en ventas</h6>
             </Grid>
-            <Grid xs={3}>
+            <Grid xs={4}>
               <div className={styles.icon}>
                 <Image
                   alt="digital marketing"
@@ -143,7 +144,7 @@ export default function HomePage() {
               </div>
               <h6>Casa de cambio digital</h6>
             </Grid>
-            <Grid xs={3}>
+            <Grid xs={4}>
               <div className={styles.icon}>
                 <Image
                   alt="digital marketing"
