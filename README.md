@@ -2,6 +2,8 @@
     <img src="https://github.com/criptorockstar/ray-enterpises-website/blob/master/src/common/assets/logo_alt.png" style="width: 300px; height: auto;"/>
 </div>
 
+![GitHub License](https://img.shields.io/github/license/criptorockstar/ray-enterpises-website)
+
 ## Run development files:
 
 ```bash
