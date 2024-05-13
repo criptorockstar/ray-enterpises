@@ -9,7 +9,7 @@ import digital from "@assets/digital.png";
 import referal from "@assets/referal.png";
 import leads from "@assets/leads.png";
 import design from "@assets/design.png";
-//import development from "@assets/development.png";
+import development from "@assets/development.png";
 import consultant from "@assets/consultant.png";
 import importations from "@assets/importation.png";
 import exchange from "@assets/exchange.png";
@@ -69,8 +69,8 @@ export default function HomePage() {
                 <Image
                   alt="digital marketing"
                   src={digital}
-                  width={128}
-                  height={128}
+                  width={100}
+                  height={100}
                 />
               </div>
               <h6>Marketing digital</h6>
@@ -81,8 +81,8 @@ export default function HomePage() {
                 <Image
                   alt="digital marketing"
                   src={referal}
-                  width={128}
-                  height={128}
+                  width={100}
+                  height={100}
                 />
               </div>
               <h6>Marketing de referidos</h6>
@@ -92,8 +92,8 @@ export default function HomePage() {
                 <Image
                   alt="digital marketing"
                   src={leads}
-                  width={128}
-                  height={128}
+                  width={100}
+                  height={100}
                 />
               </div>
               <h6>Creación de leads</h6>
@@ -103,54 +103,53 @@ export default function HomePage() {
                 <Image
                   alt="digital marketing"
                   src={design}
-                  width={128}
-                  height={128}
+                  width={100}
+                  height={100}
                 />
               </div>
               <h6>Diseño gráfico</h6>
             </Grid>
-
-            {/*<Grid xs={3}>
+            <Grid xs={3}>
               <div className={styles.icon}>
                 <Image
                   alt="digital marketing"
                   src={development}
-                  width={128}
-                  height={128}
+                  width={100}
+                  height={100}
                 />
               </div>
               <h6>Desarrollo de aplicaciónes</h6>
-            </Grid>*/}
+            </Grid>
 
-            <Grid xs={4}>
+            <Grid xs={3}>
               <div className={styles.icon}>
                 <Image
                   alt="digital marketing"
                   src={consultant}
-                  width={128}
-                  height={128}
+                  width={100}
+                  height={100}
                 />
               </div>
               <h6>Asesoramiento empresarial en ventas</h6>
             </Grid>
-            <Grid xs={4}>
+            <Grid xs={3}>
               <div className={styles.icon}>
                 <Image
                   alt="digital marketing"
                   src={exchange}
-                  width={128}
-                  height={128}
+                  width={100}
+                  height={100}
                 />
               </div>
               <h6>Casa de cambio digital</h6>
             </Grid>
-            <Grid xs={4}>
+            <Grid xs={3}>
               <div className={styles.icon}>
                 <Image
                   alt="digital marketing"
                   src={importations}
-                  width={128}
-                  height={128}
+                  width={100}
+                  height={100}
                 />
               </div>
               <h6>Importaciónes</h6>
