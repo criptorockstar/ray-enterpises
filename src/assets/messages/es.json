@@ -1,0 +1,23 @@
+{
+  "HomePage": {
+    "description": "Asesores de venta profesionales, crecimiento efectivo de tu marca, estrategias de mercado."
+  },
+  "Navigation": {
+    "links": {
+      "about": "Nosotros",
+      "services": "Servicios",
+      "work_with_us": "Trabaja con nosotros",
+      "contact": "Contacto"
+    },
+    "slug": {
+      "about": "nosotros",
+      "services": "servicios",
+      "work_with_us": "trabaja-con-nosotros",
+      "contact": "contacto"
+    }
+  },
+  "NotFoundPage": {
+    "title": "Página no encontrada",
+    "description": "Error 404 página no encontrada."
+  }
+}

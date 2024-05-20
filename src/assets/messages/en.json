@@ -1,0 +1,23 @@
+{
+  "HomePage": {
+    "description": "Professional sales consultants, effective brand growth, market strategies."
+  },
+  "Navigation": {
+    "links": {
+      "about": "About",
+      "services": "Services",
+      "work_with_us": "Work with us",
+      "contact": "Contact"
+    },
+    "slug": {
+      "about": "about",
+      "services": "services",
+      "work_with_us": "work-with-us",
+      "contact": "contact"
+    }
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "description": "Error 404 page was not found."
+  }
+}

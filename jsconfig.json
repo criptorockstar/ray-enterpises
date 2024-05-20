@@ -1,9 +1,0 @@
-{
-  "compilerOptions": {
-    "paths": {
-      "@components/*": ["./src/common/components/*"],
-      "@assets/*": ["./src/common/assets/*"],
-      "@theme/*": ["./src/common/theme/*"]
-    }
-  }
-}

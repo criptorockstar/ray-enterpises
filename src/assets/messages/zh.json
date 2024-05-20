@@ -1,0 +1,23 @@
+{
+  "HomePage": {
+    "description": "Zhuānyè de xiāoshòu gùwèn, yǒuxiào tíshēng nín de pǐnpái, shìchǎng cèlüè."
+  },
+  "Navigation": {
+    "links": {
+      "about": "Wǒmen",
+      "services": "Fúwù",
+      "work_with_us": "Gēn wǒmen gōngzuò",
+      "contact": "Jiēchù"
+    },
+    "slug": {
+      "about": "women",
+      "services": "fuwu",
+      "work_with_us": "gen-women-gongzuo",
+      "contact": "jiechu"
+    }
+  },
+  "NotFoundPage": {
+    "title": "Zhǎo bù dào wǎngyè",
+    "description": "Cuòwù 404 yèmiàn wèi zhǎodào."
+  }
+}

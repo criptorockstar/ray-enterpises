@@ -1,0 +1,23 @@
+{
+  "HomePage": {
+    "description": "Consultores de vendas profissionais, crescimento eficaz da sua marca, estratégias de mercado."
+  },
+  "Navigation": {
+    "links": {
+      "about": "Sobre",
+      "services": "Serviços",
+      "work_with_us": "Trabalhe Conosco",
+      "contact": "Contato"
+    },
+    "slug": {
+      "about": "sobre",
+      "services": "serviços",
+      "work_with_us": "trabalhe-conosco",
+      "contact": "contato"
+    }
+  },
+  "NotFoundPage": {
+    "title": "Página não encontrada",
+    "description": "A página do erro 404 não foi encontrada."
+  }
+}
