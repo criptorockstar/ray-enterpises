@@ -1,4 +1,5 @@
 import NavbarComponent from "../../components/navbar/navbar";
+import FooterComponent from "@components/footer/footer";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import { theme } from "../../config/theme";
@@ -22,6 +23,7 @@ export default function RootLayout({
         <body>
           <NavbarComponent />
           {children}
+          <FooterComponent />
         </body>
       </html>
     </ThemeProvider>

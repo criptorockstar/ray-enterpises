@@ -17,10 +17,10 @@ export default function NavbarComponent() {
   const t = useTranslations("Navigation");
 
   const items = [
-    { slug: t("slug.about"), text: t("links.about") },
-    { slug: t("slug.services"), text: t("links.services") },
-    { slug: t("slug.work_with_us"), text: t("links.work_with_us") },
-    { slug: t("slug.contact"), text: t("links.contact") },
+    { slug: `#${t("slug.about")}`, text: t("links.about") },
+    { slug: `#${t("slug.services")}`, text: t("links.services") },
+    { slug: `#${t("slug.work_with_us")}`, text: t("links.work_with_us") },
+    { slug: `#${t("slug.contact")}`, text: t("links.contact") },
   ];
 
   return (
