@@ -1,0 +1,21 @@
+.navitem {
+  text-transform: Capitalize;
+  color: white !important;
+}
+
+.brand {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+}
+.logo {
+  position: relative;
+  height: 100%;
+  width: 80px;
+}
+
+@media (max-width: 900px) {
+  .brand {
+    left: calc(50% - 60px);
+  }
+}
