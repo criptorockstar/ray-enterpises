@@ -10,8 +10,9 @@ import styles from "./navbar.module.scss";
 import Image from "next/image";
 import logo from "@assets/images/logo.svg";
 import { useTranslations } from "next-intl";
-import LocalSwitcher from "../switcher/switcher";
-import MenuComponent from "../menu/menu";
+import LocalSwitcher from "@components/switcher/switcher";
+import MenuComponent from "@components/drawer/menu";
+import DrawerComponent from "../drawer/drawer";
 
 export default function NavbarComponent() {
   const t = useTranslations("Navigation");
@@ -19,7 +20,7 @@ export default function NavbarComponent() {
   const items = [
     { slug: `#${t("slug.about")}`, text: t("links.about") },
     { slug: `#${t("slug.services")}`, text: t("links.services") },
-    { slug: `#${t("slug.work_with_us")}`, text: t("links.work_with_us") },
+    { slug: `${t("slug.work_with_us")}`, text: t("links.work_with_us") },
     { slug: `#${t("slug.contact")}`, text: t("links.contact") },
   ];
 
@@ -58,6 +59,8 @@ export default function NavbarComponent() {
           </Toolbar>
         </Container>
       </AppBar>
+      <DrawerComponent items={items} />
     </>
   );
 }
+

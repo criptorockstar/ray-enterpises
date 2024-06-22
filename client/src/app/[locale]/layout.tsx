@@ -1,10 +1,10 @@
-import NavbarComponent from "../../components/navbar/navbar";
-import FooterComponent from "@components/footer/footer";
-import { ThemeProvider } from "@mui/material/styles";
+import "@assets/styles/globals.scss";
 import CssBaseline from "@mui/material/CssBaseline";
-import { theme } from "../../config/theme";
-import "./globals.scss";
-
+import { ThemeProvider } from "@mui/material/styles";
+import { theme } from "@constants/theme";
+import {NextIntlClientProvider} from 'next-intl';
+import {getMessages} from 'next-intl/server';
+ 
 interface RootLayoutProps {
   children: React.ReactNode;
   params: {
@@ -12,20 +12,22 @@ interface RootLayoutProps {
   };
 }
 
-export default function RootLayout({
+export default async function LocaleLayout({
   children,
-  params: { locale },
+  params: {locale}
 }: Readonly<RootLayoutProps>) {
+  const messages = await getMessages();
+ 
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <html lang={locale}>
-        <body>
-          <NavbarComponent />
-          {children}
-          <FooterComponent />
-        </body>
-      </html>
-    </ThemeProvider>
+    <html lang={locale}>
+      <body>
+        <NextIntlClientProvider messages={messages}>
+          <ThemeProvider theme={theme}>
+            <CssBaseline />
+            {children}
+          </ThemeProvider>
+        </NextIntlClientProvider>
+      </body>
+    </html>
   );
 }

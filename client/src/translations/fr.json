@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "description": "Conseillers en vente professionnels, croissance efficace de votre marque, stratégies de marché."
+  },
+  "Navigation": {
+    "links": {
+      "about": "Ápropos",
+      "services": "Services",
+      "work_with_us": "Travaille avec nous",
+      "contact": "Contact"
+    },
+    "slug": {
+      "about": "apropos",
+      "services": "services",
+      "work_with_us": "travaille-avec-nous",
+      "contact": "contact"
+    }
+  },
+  "slideshow": {
+    "slide1": {
+      "title": "Ray <span>Enterprises</span>",
+      "description": "“NÉ EN JUIN 2019 DANS LA VILLE DE MARACAY EDO ARAGUA, VENEZUELA.”"
+    },
+    "slide2": {
+      "title": "NOTRE OBJECTIF PRINCIPAL EST DE SATISFAIRE CONTINUEMENT <br></br>NOS <span>CLIENTS</span>",
+      "description": "L’objectif du marketing est de bien connaître et comprendre le client pour que le produit ou le service s’adapte à lui et se vende tout seul."
+    },
+    "slide3": {
+      "title": "Un design accessible est un bon design. <br></br>Uniquement avec <span> Ray Enterprises</span>",
+      "description": "Le marketing, c'est dire au monde que vous êtes une rock star. Le marketing de contenu montre au monde que vous êtes vraiment"
+    },
+    "more": "Plus d'informations"
+  },
+  "HomePage": {
+    "about": {
+      "title": "Ray Entreprises",
+      "description": "NÉE EN DÉCEMBRE 2019 DANS LA VILLE DE MARACAY EDO ARAGUA, VENEZUELA, LA COMPAGNIE DE VOS RÊVES",
+      "subtitle": "MISSION",
+      "pitch": "COLLABORER AVEC PLUSIEURS ENTREPRISES AU NIVEAU NATIONAL ET INTERNATIONAL, POUR LA CROISSANCE ET LA RECONNAISSANCE DE CELLES-CI, SOUS NOS SERVICES, GÉNÉRANT DES SOURCES D'EMPLOIS BIEN RÉMUNÉRÉS À L'ÈRE NUMÉRIQUE, ET À TOUR SOUTIEN AVEC UN PERSONNEL FORMÉ EN TÉLÉMARKETING POUR MICRO ET MACRO ENTREPRISES MONDIAL."
+    },
+    "services": {
+      "title": "Nos services",
+      "description": "Nous offrons une grande variété de services pour votre entreprise",
+      "digital": "Le marketing numérique",
+      "referal": "Marketing de référencement",
+      "leads": "Création de leads",
+      "design": "Design graphique",
+      "development": "Développement d'applications",
+      "consultant": "Conseil en vente aux entreprises",
+      "exchange": "Maison d'échange numérique",
+      "importations": "Importations"
+    },
+    "vision": {
+      "description": "NOTRE VISION EST DE NOUS POSITIONNER À LA 1ÈRE PLACE DANS LE CLASSEMENT DES ENTREPRISES ENTELEMARKETIG DANS LE MONDE ENTIER, EN CONTRIBUANT À LA RÉALISATION DES OBJECTIFS ÉCONOMIQUES DE NOTRE CAPITAL HUMAIN, SANS INDÉPENDANCE DE LA RELIGION, DE LA RACE OU DE L'ORIGINE.",
+      "more": "Plus d'informations"
+    }
+  }
+}

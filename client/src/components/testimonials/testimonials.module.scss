@@ -1,0 +1,88 @@
+.testimonials {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .slide {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #000;
+  }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  p {
+    max-width: 80%;
+    margin: 0 auto;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  h3 {
+    margin-top: auto;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .MuiIconButton-root {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+    transition: background-color 0.3s ease;
+    z-index: 999;
+    &.Mui-disabled {
+      opacity: 0.5;
+    }
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+  }
+
+  .rightButton {
+    right: -25px;
+    top: 49%;
+    position: absolute;
+    display: none;
+  }
+
+  .leftButton {
+    left: -25px;
+    top: 49%;
+    position: absolute;
+    display: none;
+  }
+}

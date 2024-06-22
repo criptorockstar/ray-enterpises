@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "description": "專業的銷售顧問，您的品牌的有效成長，市場策略。"
+  },
+  "Navigation": {
+    "links": {
+      "about": "我們",
+      "services": "服務",
+      "work_with_us": "跟我們工作",
+      "contact": "接觸"
+    },
+    "slug": {
+      "about": "我們",
+      "services": "服務",
+      "work_with_us": "跟我們工作",
+      "contact": "接觸"
+    }
+  },
+  "slideshow": {
+    "slide1": {
+      "title": "Ray <span>Enterprises</span>",
+      "description": "“2019 年 6 月出生於委內瑞拉馬拉凱‧艾多‧阿拉瓜市。”"
+    },
+    "slide2": {
+      "title": "我們的主要目標是持續滿足<br></br>我們的<span>客戶</span>",
+      "description": "行銷的目標是充分了解和了解客戶，以便產品或服務適應他們並自行銷售。"
+    },
+    "slide3": {
+      "title": "無障礙設計才是好設計。 <br></br>僅限<span> Ray Enterprises</span>",
+      "description": "行銷就是告訴世界你是搖滾明星。內容行銷正在向世界展示你的真實身份"
+    },
+    "more": "更多資訊"
+  },
+  "HomePage": {
+    "about": {
+      "title": "Ray Entreprises",
+      "description": "2019 年 12 月出生於委內瑞拉馬拉凱市 EDO ARAGUA，您夢想中的公司",
+      "subtitle": "使命",
+      "pitch": "在我們的服務下，與國內和國際層面的多家公司合作，促進公司的發展和認可，在數位時代創造高薪工作來源，並為微型和宏觀公司接受過電話行銷培訓的員工提供支持全世界。"
+    },
+    "services": {
+      "title": "我們的服務",
+      "description": "我們為您的公司提供廣泛的服務",
+      "digital": "數位行銷",
+      "referal": "推薦行銷",
+      "leads": "領導創造",
+      "design": "平面設計",
+      "development": "應用程式開發",
+      "consultant": "商業銷售建議",
+      "exchange": "數位交換所",
+      "importations": "進口"
+    },
+    "vision": {
+      "description": "我們的願景是使我們在全球實體行銷公司排名中名列第一，為實現我們的人力資本經濟目標做出貢獻，無論宗教、種族或出身如何。",
+      "more": "更多資訊"
+    }
+  }
+}

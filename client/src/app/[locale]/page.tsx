@@ -1,18 +1,24 @@
-import Image from "next/image";
-import styles from "./home/page.module.scss";
+import NavbarComponent from "@/components/navbar/navbar";
+import styles from "@assets/styles/page.module.scss";
+import Slideshow from "@components/slideshow/slideshow";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
-import CarouselComponent from "@components/carousel/carousel";
 import { Container, Grid, Button } from "@mui/material";
-import mission from "@assets/images/mission.jpg";
-import digital from "@assets/images/digital.png";
-import referal from "@assets/images/referal.png";
-import leads from "@assets/images/leads.png";
-import design from "@assets/images/design.png";
-import development from "@assets/images/development.png";
-import consultant from "@assets/images/consultant.png";
-import importations from "@assets/images/importation.png";
-import exchange from "@assets/images/exchange.png";
+import Image from "next/image";
+import { 
+  mission,
+  digital,
+  referal,
+  leads,
+  design,
+  development,
+  consultant,
+  importations,
+  exchange
+} from "@constants/images";
+import Testimonials from "@components/testimonials/testimonials";
+import Footer from "@components/footer/footer";
+import Contact from "@components/contact/contact";
 
 interface LocaleProps {
   params: {
@@ -23,7 +29,7 @@ interface LocaleProps {
 export async function generateMetadata({
   params: { locale },
 }: Readonly<LocaleProps>) {
-  const t = await getTranslations({ locale, namespace: "HomePage" });
+  const t = await getTranslations({ locale, namespace: "meta" });
 
   return {
     title: "Ray Enterprises",
@@ -37,163 +43,166 @@ export default function Home() {
 
   return (
     <>
-      <CarouselComponent />
+      <NavbarComponent />
+      <Slideshow />
 
       <section className={styles.about} id={id("slug.about")}>
         <Container>
-          <h2>Ray Entreprises</h2>
-          <p className={styles.description}>
-            NACE EN DICIEMBRE DE 2019 EN LA CIUDAD DE MARACAY EDO ARAGUA,
-            VENEZUELA, LA EMPRESA DE TUS SUEÑOS
-          </p>
+          <h2>{t("about.title")}</h2>
+          <p className={styles.description}>{t("about.description")}</p>
 
           <Grid container spacing={2}>
-            <Grid item xs={6} className={styles.content}>
-              <h3>MISIÓN</h3>
-              <p className={styles.pitch}>
-                COLABORAR CON MULTIPLES EMPRESAS A NIVEL NACIONAL E
-                INTERNACIONAL, PARA EL CRECIMIENTO YRECONOCIMIENTO DE LAS
-                MISMAS, BAJO NUESTROS SERVICIOS, GENERANDO FUENTES DE EMPLEOS
-                BIEN REMUNERADOS EN LA ERA DIGITAL, Y A SU VEZ APOYAR CON
-                PERSONAL CAPACITADO EN TELEMARKETING PARA MICRO Y MACROEMPRESAS
-                A NIVEL MUNDIAL.
-              </p>
+            <Grid item xs={12} md={6} className={styles.content}>
+              <h3>{t("about.subtitle")}</h3>
+              <p className={styles.pitch}>{t("about.pitch")}</p>
             </Grid>
-            <Grid item xs={6} className={styles.content}>
+            <Grid item xs={12} md={6} className={styles.content}>
               <Image
                 className={styles.image}
                 src={mission}
                 width={457}
                 height={307}
-                alt="Image"
+                alt="People"
               />
             </Grid>
           </Grid>
         </Container>
       </section>
 
-
       <section className={styles.services} id={id("slug.services")}>
         <Container>
-          <h2>Nuestros servicios</h2>
+          <h2>{t("services.title")}</h2>
           <p className={styles.description}>
-            Ofrecemos una amplia variedad de servicios para tu empresa
+            {t("services.description")}
           </p>
           <Grid container spacing={1} className={styles.content}>
-            <Grid xs={3}>
+            <Grid xs={12} sm={6} md={3}>
               <div className={styles.icon}>
                 <Image
-                  alt="digital marketing"
+                  alt={t("services.digital")}
                   src={digital}
                   width={100}
                   height={100}
                 />
               </div>
-              <h6>Marketing digital</h6>
+              <h6>{t("services.digital")}</h6>
               <p className={styles.service}></p>
             </Grid>
-            <Grid xs={3}>
+            <Grid xs={12} sm={6} md={3}>
               <div className={styles.icon}>
                 <Image
-                  alt="digital marketing"
+                  alt={t("services.referal")}
                   src={referal}
                   width={100}
                   height={100}
                 />
               </div>
-              <h6>Marketing de referidos</h6>
+              <h6>{t("services.referal")}</h6>
             </Grid>
-            <Grid xs={3}>
+            <Grid xs={12} sm={6} md={3}>
               <div className={styles.icon}>
                 <Image
-                  alt="digital marketing"
+                  alt={t("services.leads")}
                   src={leads}
                   width={100}
                   height={100}
                 />
               </div>
-              <h6>Creación de leads</h6>
+              <h6>{t("services.leads")}</h6>
             </Grid>
-            <Grid xs={3}>
+            <Grid xs={12} sm={6} md={3}>
               <div className={styles.icon}>
                 <Image
-                  alt="digital marketing"
+                  alt={t("services.design")}
                   src={design}
                   width={100}
                   height={100}
                 />
               </div>
-              <h6>Diseño gráfico</h6>
+              <h6>{t("services.design")}</h6>
             </Grid>
-            <Grid xs={3}>
+            <Grid xs={12} sm={6} md={3}>
               <div className={styles.icon}>
                 <Image
-                  alt="digital marketing"
+                  alt={t("services.development")}
                   src={development}
                   width={100}
                   height={100}
                 />
               </div>
-              <h6>Desarrollo de aplicaciónes</h6>
+              <h6>{t("services.development")}</h6>
             </Grid>
 
-            <Grid xs={3}>
+            <Grid xs={12} sm={6} md={3}>
               <div className={styles.icon}>
                 <Image
-                  alt="digital marketing"
+                  alt={t("services.consultant")}
                   src={consultant}
                   width={100}
                   height={100}
                 />
               </div>
-              <h6>Asesoramiento empresarial en ventas</h6>
+              <h6>{t("services.consultant")}</h6>
             </Grid>
-            <Grid xs={3}>
+            <Grid xs={12} sm={6} md={3}>
               <div className={styles.icon}>
                 <Image
-                  alt="digital marketing"
+                  alt={t("services.exchange")}
                   src={exchange}
                   width={100}
                   height={100}
                 />
               </div>
-              <h6>Casa de cambio digital</h6>
+              <h6>{t("services.exchange")}</h6>
             </Grid>
-            <Grid xs={3}>
+            <Grid xs={12} sm={6} md={3}>
               <div className={styles.icon}>
                 <Image
-                  alt="digital marketing"
+                  alt={t("services.importations")}
                   src={importations}
                   width={100}
                   height={100}
                 />
               </div>
-              <h6>Importaciónes</h6>
+              <h6>{t("services.importations")}</h6>
             </Grid>
           </Grid>
         </Container>
       </section>
 
-
-      <section className={styles.vision}>
+      <section className={styles.audiovisual}>
         <Container>
-          <p className={styles.description}>
-            NUESTRA VISION, ES POSICIONARNOS EN EL 1º LUGAR DEL RANKING DE
-            EMPRESAS ENTELEMARKETIG A NIVEL MUNDIAL, CONTRIBUYENDO A ALCANZAR
-            LOS OBJETIVOS ECONOMICO A NUESTRO CAPITAL HUMANO, SIN IMPORTAR
-            RELIGION, RAZA U ORIGEN.
-          </p>
-
-          <div className={styles.center}>
-            <Button variant="contained">Más infomación</Button>
-          </div>
+          <Grid container spacing={1}>
+            <Grid item md={6}>
+              <video className={styles.video} controls>
+                <source src="https://onlinetestcase.com/wp-content/uploads/2023/06/2MB.mp4" type="video/mp4" />
+              </video>
+            </Grid>
+            <Grid item md={6}>
+              <p className={styles.description}>
+                {t("vision.description")}
+              </p>
+              <div className={styles.center}>
+                <Button variant="contained">{t("vision.more")}</Button>
+              </div>
+            </Grid>
+          </Grid>
+        </Container>
+      </section>
+      
+      <section>
+        <Container>
+          <Testimonials />
         </Container>
       </section>
 
-      <section className={styles.portfolio}></section>
+      <section>
+        <Container>
+          <Contact />
+        </Container>
+      </section>
 
-
-      <section className={styles.contact} id={id("slug.contact")}></section>
+      <Footer />
     </>
   );
 }

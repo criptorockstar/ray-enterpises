@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "description": "Professional sales consultants, effective brand growth, market strategies."
+  },
+  "Navigation": {
+    "links": {
+      "about": "About",
+      "services": "Services",
+      "work_with_us": "Work with us",
+      "contact": "Contact"
+    },
+    "slug": {
+      "about": "about",
+      "services": "services",
+      "work_with_us": "work-with-us",
+      "contact": "contact"
+    }
+  },
+  "slideshow": {
+    "slide1": {
+      "title": "Ray <span>Enterprises</span>",
+      "description": "“BORN IN JUNE 2019 IN THE CITY OF MARACAY EDO ARAGUA, VENEZUELA.”"
+    },
+    "slide2": {
+      "title": "OUR MAIN OBJECTIVE IS TO CONTINUOUSLY SATISFIED <br></br>OUR <span>CUSTOMERS</span>",
+      "description": "The goal of marketing is to know and understand the customer so well that the product or service adapts to them and sells itself."
+    },
+    "slide3": {
+      "title": "Accessible design is good design. <br></br>Only with <span> Ray Enterprises</span>",
+      "description": "Marketing is telling the world that you are a rock star. Content marketing is showing the world that you really are"
+    },
+    "more": "More information"
+  },
+  "HomePage": {
+    "about": {
+      "title": "Ray Entreprises",
+      "description": "BORN IN DECEMBER 2019 IN THE CITY OF MARACAY EDO ARAGUA, VENEZUELA, THE COMPANY OF YOUR DREAMS",
+      "subtitle": "MISSION",
+      "pitch": "COLLABORATE WITH MULTIPLE COMPANIES AT A NATIONAL AND INTERNATIONAL LEVEL, FOR THE GROWTH AND RECOGNITION OF THE SAME, UNDER OUR SERVICES, GENERATING SOURCES OF WELL-PAID JOBS IN THE DIGITAL ERA, AND AT TURN SUPPORT WITH STAFF TRAINED IN TELEMARKETING FOR MICRO AND MACRO COMPANIES WORLDWIDE."
+    },
+    "services": {
+      "title": "Our services",
+      "description": "We offer a wide variety of services for your company",
+      "digital": "Digital marketing",
+      "referal": "Referral Marketing",
+      "leads": "Lead creation",
+      "design": "Graphic design",
+      "development": "Applications development",
+      "consultant": "Business sales advice",
+      "exchange": "Digital exchange house",
+      "importations": "Imports"
+    },
+    "vision": {
+      "description": "OUR VISION IS TO POSITION US IN 1ST PLACE IN THE RANKING OF ENTELEMARKETIG COMPANIES WORLDWIDE, CONTRIBUTING TO ACHIEVING ECONOMIC OBJECTIVES FOR OUR HUMAN CAPITAL, REGARDLESS OF RELIGION, RACE OR ORIGIN.",
+      "more": "More information"
+    }
+  }
+}
