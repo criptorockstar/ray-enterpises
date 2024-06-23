@@ -53,6 +53,38 @@
     "vision": {
       "description": "NUESTRA VISION, ES POSICIONARNOS EN EL 1º LUGAR DEL RANKING DE EMPRESAS ENTELEMARKETIG A NIVEL MUNDIAL, CONTRIBUYENDO A ALCANZAR LOS OBJETIVOS ECONOMICO A NUESTRO CAPITAL HUMANO, SIN IMPORTAR RELIGION, RAZA U ORIGEN.",
       "more": "Más infomación"
+    },
+    "testimonials": {
+      "t1": {
+        "avatar": "https://randomuser.me/api/portraits/men/10.jpg",
+        "comment": "“Ray Enterprises ha transformado completamente nuestra estrategia de marketing digital. Gracias a su equipo, hemos visto un incremento significativo en nuestros leads y ventas.”",
+        "name": "Carlos Rodríguez"
+      },
+      "t2": {
+        "avatar": "https://randomuser.me/api/portraits/women/11.jpg",
+        "comment": "“El equipo de Ray Enterprises es increíblemente profesional y eficiente. Su servicio de telemarketing nos ha ayudado a expandirnos a nuevos mercados internacionales.”",
+        "name": "Laura Gómez"
+      },
+      "t3": {
+        "avatar": "https://randomuser.me/api/portraits/men/12.jpg",
+        "comment": "“Gracias a Ray Enterprises, nuestra empresa ha experimentado un crecimiento impresionante. Sus servicios de asesoramiento en ventas son de primera clase.”",
+        "name": "Javier Hernández"
+      },
+      "t4": {
+        "avatar": "https://randomuser.me/api/portraits/women/13.jpg",
+        "comment": "“La casa de cambio digital de Ray Enterprises ha simplificado nuestras transacciones internacionales, ahorrándonos tiempo y dinero.”",
+        "name": "María Fernández"
+      },
+      "t5": {
+        "avatar": "https://randomuser.me/api/portraits/men/14.jpg",
+        "comment": "“El diseño gráfico de Ray Enterprises es excepcional. Han llevado nuestra marca a un nivel completamente nuevo.”",
+        "name": "Andrés Martínez"
+      },
+      "t6": {
+        "avatar": "https://randomuser.me/api/portraits/women/15.jpg",
+        "comment": "“Los servicios de marketing de referidos de Ray Enterprises han sido clave para el crecimiento de nuestra base de clientes. Estamos muy satisfechos con los resultados.”",
+        "name": "Sofía López"
+      }
     }
   }
 }

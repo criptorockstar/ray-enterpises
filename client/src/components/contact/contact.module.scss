@@ -1,0 +1,32 @@
+.contactForm {
+  padding-bottom: 100px;
+  h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .formControl {
+    width: 98%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .formControlFull {
+    width: 99%;
+    margin: 0 auto;
+  }
+  .formControlArea {
+    width: 99%;
+    margin: 0 auto;
+    margin-left: -0.1%;
+    margin-top: 20px;
+  }
+
+  .buttonContainer {
+    margin-top: 20px;
+    width: 100%;
+    .submit {
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}

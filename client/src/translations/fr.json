@@ -53,6 +53,38 @@
     "vision": {
       "description": "NOTRE VISION EST DE NOUS POSITIONNER À LA 1ÈRE PLACE DANS LE CLASSEMENT DES ENTREPRISES ENTELEMARKETIG DANS LE MONDE ENTIER, EN CONTRIBUANT À LA RÉALISATION DES OBJECTIFS ÉCONOMIQUES DE NOTRE CAPITAL HUMAIN, SANS INDÉPENDANCE DE LA RELIGION, DE LA RACE OU DE L'ORIGINE.",
       "more": "Plus d'informations"
+    },
+    "testimonials": {
+      "t1": {
+        "avatar": "https://randomuser.me/api/portraits/men/10.jpg",
+        "comment": "“Ray Enterprises a complètement transformé notre stratégie de marketing numérique. Grâce à leur équipe, nous avons constaté une augmentation significative de nos leads et de nos ventes.”",
+        "name": "Carlos Rodríguez"
+      },
+      "t2": {
+        "avatar": "https://randomuser.me/api/portraits/women/11.jpg",
+        "comment": "“L'équipe de Ray Enterprises est incroyablement professionnelle et efficace. Leur service de télémarketing nous a aidés à nous développer sur de nouveaux marchés internationaux.”",
+        "name": "Laura Gómez"
+      },
+      "t3": {
+        "avatar": "https://randomuser.me/api/portraits/men/12.jpg",
+        "comment": "“Grâce à Ray Enterprises, notre entreprise a connu une croissance impressionnante. Leurs services de conseil en vente sont de première classe.”",
+        "name": "Javier Hernández"
+      },
+      "t4": {
+        "avatar": "https://randomuser.me/api/portraits/women/13.jpg",
+        "comment": "“L'échange numérique de Ray Enterprises a simplifié nos transactions internationales, nous permettant d'économiser du temps et de l'argent.”",
+        "name": "María Fernández"
+      },
+      "t5": {
+        "avatar": "https://randomuser.me/api/portraits/men/14.jpg",
+        "comment": "“La conception graphique de Ray Enterprises est exceptionnelle. Ils ont propulsé notre marque à un tout autre niveau.”",
+        "name": "Andrés Martínez"
+      },
+      "t6": {
+        "avatar": "https://randomuser.me/api/portraits/women/15.jpg",
+        "comment": "“Les services de marketing de référence de Ray Enterprises ont joué un rôle clé dans la croissance de notre clientèle. Nous sommes très satisfaits des résultats.”",
+        "name": "Sofía López"
+      }
     }
   }
 }

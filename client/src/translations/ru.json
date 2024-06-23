@@ -53,6 +53,38 @@
     "vision": {
       "description": "НАШЕ ВИДЕНИЕ – ПОЗИЦИИРОВАТЬ НАС НА 1-М МЕСТЕ В РЕЙТИНГЕ ЭНТЕЛЕМАРКЕТИНГОВЫХ КОМПАНИЙ МИРА, СОДЕЙСТВУЯ ДОСТИЖЕНИЮ ЭКОНОМИЧЕСКИХ ЦЕЛЕЙ ДЛЯ НАШЕГО ЧЕЛОВЕЧЕСКОГО КАПИТАЛА, НЕЗАВИСИМО ОТ РЕЛИГИИ, РАСЫ ИЛИ ПРОИСХОЖДЕНИЯ.",
       "more": "Больше информации"
+    },
+    "testimonials": {
+      "t1": {
+        "avatar": "https://randomuser.me/api/portraits/men/10.jpg",
+        "comment": "“Ray Enterprises полностью изменила нашу стратегию цифрового маркетинга. Благодаря их команде мы добились значительного увеличения числа потенциальных клиентов и продаж.”",
+        "name": "Carlos Rodríguez"
+      },
+      "t2": {
+        "avatar": "https://randomuser.me/api/portraits/women/11.jpg",
+        "comment": "“Команда Ray Enterprises невероятно профессиональна и эффективна. Их услуги телемаркетинга помогли нам выйти на новые международные рынки.”",
+        "name": "Laura Gómez"
+      },
+      "t3": {
+        "avatar": "https://randomuser.me/api/portraits/men/12.jpg",
+        "comment": "“Благодаря Ray Enterprises наша компания добилась впечатляющего роста. Их консультационные услуги по продажам являются первоклассными.”",
+        "name": "Javier Hernández"
+      },
+      "t4": {
+        "avatar": "https://randomuser.me/api/portraits/women/13.jpg",
+        "comment": "“Цифровая биржа Ray Enterprises упростила наши международные транзакции, сэкономив нам время и деньги.”",
+        "name": "María Fernández"
+      },
+      "t5": {
+        "avatar": "https://randomuser.me/api/portraits/men/14.jpg",
+        "comment": "“Графический дизайн Ray Enterprises исключителен. Они вывели наш бренд на совершенно новый уровень.”",
+        "name": "Andrés Martínez"
+      },
+      "t6": {
+        "avatar": "https://randomuser.me/api/portraits/women/15.jpg",
+        "comment": "“Услуги реферального маркетинга Ray Enterprises сыграли ключевую роль в росте нашей клиентской базы. Мы очень довольны результатами.”",
+        "name": "Sofía López"
+      }
     }
   }
 }

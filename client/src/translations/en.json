@@ -53,6 +53,38 @@
     "vision": {
       "description": "OUR VISION IS TO POSITION US IN 1ST PLACE IN THE RANKING OF ENTELEMARKETIG COMPANIES WORLDWIDE, CONTRIBUTING TO ACHIEVING ECONOMIC OBJECTIVES FOR OUR HUMAN CAPITAL, REGARDLESS OF RELIGION, RACE OR ORIGIN.",
       "more": "More information"
+    },
+    "testimonials": {
+      "t1": {
+        "avatar": "https://randomuser.me/api/portraits/men/10.jpg",
+        "comment": "“Ray Enterprises has completely transformed our digital marketing strategy. Thanks to their team, we have seen a significant increase in our leads and sales.”",
+        "name": "Carlos Rodríguez"
+      },
+      "t2": {
+        "avatar": "https://randomuser.me/api/portraits/women/11.jpg",
+        "comment": "“The Ray Enterprises team is incredibly professional and efficient. Their telemarketing service has helped us expand into new international markets.”",
+        "name": "Laura Gómez"
+      },
+      "t3": {
+        "avatar": "https://randomuser.me/api/portraits/men/12.jpg",
+        "comment": "“Thanks to Ray Enterprises, our company has experienced impressive growth. Their sales advisory services are first class.”",
+        "name": "Javier Hernández"
+      },
+      "t4": {
+        "avatar": "https://randomuser.me/api/portraits/women/13.jpg",
+        "comment": "“Ray Enterprises' digital exchange has simplified our international transactions, saving us time and money.”",
+        "name": "María Fernández"
+      },
+      "t5": {
+        "avatar": "https://randomuser.me/api/portraits/men/14.jpg",
+        "comment": "“Ray Enterprises' graphic design is exceptional. They have taken our brand to a whole new level.”",
+        "name": "Andrés Martínez"
+      },
+      "t6": {
+        "avatar": "https://randomuser.me/api/portraits/women/15.jpg",
+        "comment": "“Ray Enterprises' referral marketing services have been key to the growth of our customer base. We are very satisfied with the results.”",
+        "name": "Sofía López"
+      }
     }
   }
 }

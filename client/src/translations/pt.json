@@ -53,6 +53,38 @@
     "vision": {
       "description": "NOSSA VISÃO É POSICIONAR-NOS EM 1º LUGAR NO RANKING DE EMPRESAS ENTELEMARKETIG MUNDIAL, CONTRIBUINDO PARA ATINGIR OBJETIVOS ECONÔMICOS PARA O NOSSO CAPITAL HUMANO, INDEPENDENTEMENTE DE RELIGIÃO, RAÇA OU ORIGEM.",
       "more": "Mais informação"
+    },
+    "testimonials": {
+      "t1": {
+        "avatar": "https://randomuser.me/api/portraits/men/10.jpg",
+        "comment": "“Ray Enterprises transformou completamente nossa estratégia de marketing digital. Graças à sua equipe, vimos um aumento significativo em nossos leads e vendas.”",
+        "name": "Carlos Rodríguez"
+      },
+      "t2": {
+        "avatar": "https://randomuser.me/api/portraits/women/11.jpg",
+        "comment": "“A equipe da Ray Enterprises é incrivelmente profissional e eficiente. O seu serviço de telemarketing ajudou-nos a expandir-nos para novos mercados internacionais.”",
+        "name": "Laura Gómez"
+      },
+      "t3": {
+        "avatar": "https://randomuser.me/api/portraits/men/12.jpg",
+        "comment": "“Graças à Ray Enterprises, nossa empresa experimentou um crescimento impressionante. Seus serviços de consultoria de vendas são de primeira classe.”",
+        "name": "Javier Hernández"
+      },
+      "t4": {
+        "avatar": "https://randomuser.me/api/portraits/women/13.jpg",
+        "comment": "“A troca digital da Ray Enterprises simplificou nossas transações internacionais, economizando tempo e dinheiro.”",
+        "name": "María Fernández"
+      },
+      "t5": {
+        "avatar": "https://randomuser.me/api/portraits/men/14.jpg",
+        "comment": "“O design gráfico da Ray Enterprises é excepcional. Eles levaram nossa marca a um nível totalmente novo.”",
+        "name": "Andrés Martínez"
+      },
+      "t6": {
+        "avatar": "https://randomuser.me/api/portraits/women/15.jpg",
+        "comment": "“Os serviços de marketing de referência da Ray Enterprises têm sido fundamentais para o crescimento de nossa base de clientes. Estamos muito satisfeitos com os resultados.”",
+        "name": "Sofía López"
+      }
     }
   }
 }

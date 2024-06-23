@@ -53,6 +53,38 @@
     "vision": {
       "description": "我們的願景是使我們在全球實體行銷公司排名中名列第一，為實現我們的人力資本經濟目標做出貢獻，無論宗教、種族或出身如何。",
       "more": "更多資訊"
+    },
+    "testimonials": {
+      "t1": {
+        "avatar": "https://randomuser.me/api/portraits/men/10.jpg",
+        "comment": "“Ray Enterprises 徹底改變了我們的數位行銷策略。感謝他們的團隊，我們的銷售線索和銷售額顯著增加。”",
+        "name": "Carlos Rodríguez"
+      },
+      "t2": {
+        "avatar": "https://randomuser.me/api/portraits/women/11.jpg",
+        "comment": "“Ray Enterprises 團隊非常專業且有效率。他們的電話行銷服務幫助我們拓展了新的國際市場。”",
+        "name": "Laura Gómez"
+      },
+      "t3": {
+        "avatar": "https://randomuser.me/api/portraits/men/12.jpg",
+        "comment": "“感謝 Ray Enterprises，我們公司取得了令人矚目的發展。他們的銷售諮詢服務是一流的。”",
+        "name": "Javier Hernández"
+      },
+      "t4": {
+        "avatar": "https://randomuser.me/api/portraits/women/13.jpg",
+        "comment": "“Ray Enterprises 的數位交易簡化了我們的國際交易，節省了我們的時間和金錢。”",
+        "name": "María Fernández"
+      },
+      "t5": {
+        "avatar": "https://randomuser.me/api/portraits/men/14.jpg",
+        "comment": "“Ray Enterprises 的圖形設計非常出色。他們將我們的品牌提升到了一個全新的水平。”",
+        "name": "Andrés Martínez"
+      },
+      "t6": {
+        "avatar": "https://randomuser.me/api/portraits/women/15.jpg",
+        "comment": "“Ray Enterprises 的推薦行銷服務對於我們客戶群的成長至關重要。我們對結果非常滿意。”",
+        "name": "Sofía López"
+      }
     }
   }
 }
